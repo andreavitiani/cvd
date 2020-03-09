@@ -1,14 +1,3 @@
-# A Blank PhoneGap App
+app cvd
 
-## Usage
-
-### PhoneGap CLI
-
-    $ phonegap create my-app --template blank
-
-### Desktop
-
-In your browser, open the file:
-
-    /www/index.html
-
+in cartella www c'è l'index. è tutto li diviso in sezioni
