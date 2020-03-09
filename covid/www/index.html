@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width"
+    />
+    <title>Blank App</title>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/jquery.mobile-1.4.5.js"></script>
+    <link rel="stylesheet" href="./css/jquery.mobile-1.4.5.css" />
+  </head>
+  <body>
+    <!-- Start of first page -->
+    <div data-role="page" id="foo">
+      <div data-role="header">
+        <h1>Home</h1>
+      </div>
+      <!-- /header -->
+
+      <div role="main" class="ui-content">
+        <p>
+          Link sotto da cliccaare
+          <a href="#bar" class="ui-btn" data-transition="slide"
+            >Vai alla mappa</a
+          >
+        </p>
+      </div>
+      <!-- /content -->
+
+      <div data-role="footer" data-position="fixed">
+        <h4>Footer...</h4>
+      </div>
+      <!-- /footer -->
+    </div>
+    <!-- /page -->
+
+    <!-- Start of second page -->
+    <div data-role="page" id="bar">
+      <div data-role="header">
+        <h1>Mappa</h1>
+      </div>
+      <!-- /header -->
+
+      <div role="main" class="ui-content">
+        <p>
+          <a
+            href="#foo"
+            class="ui-btn"
+            data-transition="slide"
+            data-direction="reverse"
+            >Torna all home</a
+          >
+        </p>
+      </div>
+      <!-- /content -->
+
+      <div data-role="footer" data-position="fixed">
+        <h4>Footer...</h4>
+      </div>
+      <!-- /footer -->
+    </div>
+    <!-- /page -->
+    <button onclick="alert('this app is working')">click me</button>
+    <script type="text/javascript" src="cordova.js"></script>
+  </body>
+</html>
